@@ -128,4 +128,3 @@ For questions: See project.ipynb notebook for detailed documentation.
 ---
 
 **Last updated:** Sept 30, 2026  
-**Status:** Exhibition-ready ✓
