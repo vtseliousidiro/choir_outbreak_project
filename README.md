@@ -9,7 +9,7 @@ This project applies probabilistic modeling, parameter estimation, and uncertain
 
 **Core research question:** Given an observed 86.7% attack rate from a 2.5-hour singing exposure, what transmission rate **β** (per minute) explains this data, and how certain are we?
 
-**Methods:** Gradient descent (maximum likelihood estimation) and Bayesian MCMC (Metropolis-Hastings).
+**Methods:** Gradient descent (maximum likelihood estimation) and Grid-based Bayesian inference.
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ The notebook runs top-to-bottom without manual edits. Cell 1 loads all imports a
 2. **Incubation Period Fit** — Lognormal distribution for symptom onset timing
 3. **Gradient Descent (MLE)** — Fit β using L-BFGS-B optimizer
 4. **Likelihood Scan** — Compute confidence intervals via likelihood ratio test
-5. **Bayesian MCMC** — Metropolis-Hastings sampler for full posterior
-6. **Diagnostics** — Trace plots, autocorrelation, posterior density
+5. **Bayesian Grid Evaluation** — Grid-based posterior on 500-point β grid
+6. **Bayesian Diagnostics** — Posterior density, comparison to frequentist
 7. **Posterior Predictive Checks** — Validate model against observed data
 8. **Sensitivity Analysis** — Attack rate vs. exposure duration
 9. **Summary** — Comparison of frequentist and Bayesian results
