@@ -1,7 +1,7 @@
 # Modeling Transmission Dynamics of the Skagit County Choir COVID-19 Outbreak
 
 **Course:** CB2330 Scientific Computing for Life Sciences, PRO1 Project  
-**Autumn 2026** | Pass/Fail | 2.0 credits
+
 
 ## Overview
 
