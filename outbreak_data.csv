@@ -1,0 +1,18 @@
+parameter,value,unit,source,note
+n_exposed,61,persons,Hamner et al. 2020,"Attendees at the 10 March 2020 practice, including the index patient"
+n_secondary_cases,52,persons,Hamner et al. 2020,Confirmed + probable cases among the 60 attendees other than the index patient
+n_confirmed,32,persons,Hamner et al. 2020,Laboratory-confirmed secondary cases (the text reports 33 confirmed cases in total)
+n_probable,20,persons,Hamner et al. 2020,Probable cases (clinically compatible; not tested)
+attack_rate,0.867,dimensionless,Hamner et al. 2020,"52/60 (confirmed + probable), rounded as reported"
+attack_rate_confirmed_only,0.533,dimensionless,Hamner et al. 2020,"32/60, rounded as reported"
+exposure_duration,150,minutes,Hamner et al. 2020,"2.5-hour practice, 6:30-9:00 p.m."
+incubation_median,3,days,Hamner et al. 2020,Median interval from the 10 March practice to symptom onset
+incubation_min,1,days,Hamner et al. 2020,Shortest interval from practice to symptom onset
+incubation_max,12,days,Hamner et al. 2020,Longest interval from practice to symptom onset
+incubation_concentrated_fraction,0.925,dimensionless,Hamner et al. 2020,49/53 cases with onset 11-15 March (days 1-5 after the practice)
+chair_spacing_min,6,inches,Hamner et al. 2020,"Chairs in six rows of 20, spaced 6-10 inches apart"
+chair_spacing_max,10,inches,Hamner et al. 2020,"Chairs in six rows of 20, spaced 6-10 inches apart"
+n_hospitalized,3,persons,Hamner et al. 2020,Of 53 cases (including the index patient)
+n_deaths,2,persons,Hamner et al. 2020,Of 53 cases (including the index patient)
+hospitalization_rate,0.057,dimensionless,Hamner et al. 2020,"3/53, as reported"
+case_fatality_rate,0.038,dimensionless,Hamner et al. 2020,"2/53, as reported (paper's summary gives 3.7%)"
